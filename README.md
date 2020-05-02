@@ -27,10 +27,9 @@ Define the settings as environment variables or adapt them in the `docker-compos
 
 ## Development
 
-- Run pure data patch
+Run pure data patch
 
-- Run pdjam server with npm 
-
+Run pdjam server with npm 
 
     $ cd server
     
@@ -40,8 +39,7 @@ Define the settings as environment variables or adapt them in the `docker-compos
     # Start server:
     $ npm start
     
-- Run react dev server
-
+ Run react dev server
 
     $ cd server/frontend
     
