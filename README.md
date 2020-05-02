@@ -10,6 +10,12 @@ The pure data patch expects the specified icecast server to be running.
 The pdjam server expects a running pure data patch exposing port 5001 for netreceive.  
 Run pure data either locally or use the provided docker image at `./pd`
 
+Furthermore, make sure to have the follwing installed on your machine:
+
+- node and npm
+- docker and docker-compose
+
+
 ## Run with docker-compose
 
 Define the settings as environment variables or adapt them in the `docker-compose.yml` config directly.
